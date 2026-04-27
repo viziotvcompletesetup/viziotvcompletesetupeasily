@@ -17,8 +17,35 @@ body {
 header {
     background-color: #111;
     color: white;
-    padding: 20px;
+    padding: 25px;
     text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header p {
+    margin-top: 8px;
+}
+
+/* BUTTON */
+.start-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background: #d32f2f;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.start-btn:hover {
+    background: #b71c1c;
+    transform: scale(1.05);
 }
 
 /* NAV */
@@ -35,7 +62,7 @@ nav a {
     font-weight: bold;
 }
 
-/* SECTIONS */
+/* SECTION */
 section {
     padding: 30px;
     margin: 20px;
@@ -50,7 +77,7 @@ h2 {
     padding-bottom: 10px;
 }
 
-/* STEP BOX */
+/* BOXES */
 .step {
     background: #e3f2fd;
     padding: 15px;
@@ -58,7 +85,6 @@ h2 {
     border-left: 5px solid #2196f3;
 }
 
-/* IMPORTANT */
 .important {
     background: #fff3cd;
     padding: 15px;
@@ -66,7 +92,6 @@ h2 {
     margin: 15px 0;
 }
 
-/* SUCCESS */
 .success {
     background: #d4edda;
     padding: 15px;
@@ -87,11 +112,16 @@ footer {
 
 <body>
 
+<!-- HEADER -->
 <header>
     <h1>Smart TV Setup & Activation Guide</h1>
-    <p>Simple Step-by-Step Instructions</p>
+    <p>Easy Step-by-Step Instructions for First-Time Setup</p>
+
+    <!-- BUTTON -->
+    <a href="https://us00.net/?1s7clbwoqkA00L9o4PsS7O2iZfzGTjqqJptNarkPfLrqRLsga" class="start-btn">Start Setup</a>
 </header>
 
+<!-- NAV -->
 <nav>
     <a href="#setup">Setup</a>
     <a href="#wifi">WiFi</a>
@@ -106,37 +136,31 @@ footer {
 
 <div class="step">Step 1: Unbox your Smart TV carefully.</div>
 <div class="step">Step 2: Connect power cable.</div>
-<div class="step">Step 3: Turn ON the TV using remote.</div>
+<div class="step">Step 3: Turn ON TV using remote.</div>
 
-<div class="important">
-Make sure TV is placed on a stable surface.
-</div>
+<div class="important">Keep TV on a stable surface.</div>
 </section>
 
 <!-- WIFI -->
 <section id="wifi">
 <h2>2. Connect to WiFi</h2>
 
-<div class="step">Step 1: Select your language.</div>
+<div class="step">Step 1: Select language.</div>
 <div class="step">Step 2: Choose WiFi network.</div>
-<div class="step">Step 3: Enter password correctly.</div>
+<div class="step">Step 3: Enter password.</div>
 
-<div class="success">
-WiFi connected successfully.
-</div>
+<div class="success">WiFi connected successfully.</div>
 </section>
 
 <!-- ACCOUNT -->
 <section id="account">
 <h2>3. Activation & Account</h2>
 
-<div class="step">Step 1: Open setup website on mobile/PC.</div>
-<div class="step">Step 2: Enter activation code shown on TV.</div>
-<div class="step">Step 3: Login or create account.</div>
+<div class="step">Step 1: Open setup website.</div>
+<div class="step">Step 2: Enter activation code.</div>
+<div class="step">Step 3: Login or sign up.</div>
 
-<div class="important">
-Keep your account details safe.
-</div>
+<div class="important">Keep account details safe.</div>
 </section>
 
 <!-- APPS -->
@@ -144,12 +168,10 @@ Keep your account details safe.
 <h2>4. Install Apps</h2>
 
 <div class="step">Step 1: Open App Store.</div>
-<div class="step">Step 2: Search apps like YouTube or Netflix.</div>
+<div class="step">Step 2: Search apps like YouTube/Netflix.</div>
 <div class="step">Step 3: Click Install.</div>
 
-<div class="success">
-Apps installed successfully.
-</div>
+<div class="success">Apps installed successfully.</div>
 </section>
 
 <!-- HELP -->
@@ -160,11 +182,10 @@ Apps installed successfully.
 <div class="step">Activation error → Refresh code.</div>
 <div class="step">Apps not loading → Restart TV.</div>
 
-<div class="important">
-Still need help? Contact support.
-</div>
+<div class="important">Contact support if needed.</div>
 </section>
 
+<!-- FOOTER -->
 <footer>
 <p>© 2026 Smart TV Setup Guide</p>
 </footer>
